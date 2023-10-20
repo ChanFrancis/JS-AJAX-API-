@@ -10,5 +10,5 @@ Fetch des informations dans l'API : poster, titre, description, note imbd sur 10
 
 
 Visualisation du résultat :
-Netify https://francis-chan-ajax-c8d5ed.netlify.app/
+Netlify https://francis-chan-ajax-c8d5ed.netlify.app/
 [![image](https://github.com/ChanFrancis/JS-AJAX-API-/assets/108381402/f9c4e98d-1d9b-4673-93eb-baa32a33ce45)](https://francis-chan-ajax-c8d5ed.netlify.app/)
