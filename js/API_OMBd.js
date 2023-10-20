@@ -14,7 +14,7 @@ document.getElementById('rechercheForm').addEventListener('submit', function (ev
     const annee = document.getElementById('anneeRecherche').value;
 
     // Lien vers le url
-    lien = "http://www.omdbapi.com/?type=movie&t=" + film + "&apikey=5fae0f09&y=" + annee
+    lien = "https://www.omdbapi.com/?type=movie&t=" + film + "&apikey=5fae0f09&y=" + annee
 
     xhr.onreadystatechange = function () {
 
