@@ -9,4 +9,4 @@ Navbar avec le bouton search provenant de Boostrap, il permet de faire apparaît
 Fetch des informations dans l'API : poster, titre, description, note imbd sur 10 qui est par la suite converti en étoile sur 5, acteurs, ...
 
 Visualisation du résultat :
-INC
+Netify https://francis-chan-ajax-c8d5ed.netlify.app/
