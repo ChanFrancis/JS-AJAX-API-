@@ -1,0 +1,139 @@
+/* Barre de recherche pour le film */
+#shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(59, 59, 59, 0.7);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fade-in{
+    animation: fade .5s ease-in-out 0.3s both
+}
+
+@keyframes fade {
+
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+#Prompt {
+    background-color: white;
+    width: 25%;
+    padding: 25px;
+    border: 5px solid rgb(126, 125, 125);
+    border-radius: 25px;
+    box-shadow: 5px 8px 12px 7px rgb(56, 56, 56);
+    z-index: 1;
+}
+
+.slide-left {
+    animation: entrance 0.65s ease-in-out 0.8s both
+}
+
+@keyframes entrance {
+
+    0% {
+        transform: translateZ(-800px) rotateY(90deg);
+        opacity: 0
+    }
+    100% {
+        transform: translate(-50%, -50%, 0) rotateY(0);
+        opacity: 1
+    }
+}
+
+/* Erreur de recherche */
+#erreur {
+    position: absolute;
+    text-align: center;
+    font-weight: 900;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Afficher le film */
+#cadreFilm {
+    border: 5px solid rgb(104, 104, 104);
+    width: 70%;
+    margin: 10vh auto;
+    display: flex;
+    padding: 2vh 2%;
+    border-radius: 10px;
+    gap: 1.5%;
+    background-color: lightgray;
+}
+
+#cadreDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+#titre {
+    margin-bottom: 2vh;
+}
+
+#cadreNote {
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 4px;
+    width: 100%;
+}
+
+.star {
+    width: 30px;
+}
+
+#ratingCount {
+    display: flex;
+    align-items: end;
+    margin-left: 3px;
+    font-size: small;
+}
+
+/* Responsive avec Media Queries */
+/* Petit Ecran -1440px  */
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+    #Prompt {
+        width: 40%;
+    }
+}
+
+/* Ecran tactile - Tablette */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #Prompt {
+        width: 50%;
+    }
+
+    #cadreFilm {
+        width: 99%;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 768px) {
+    #Prompt {
+        width: 80%;
+    }
+
+    #cadreFilm {
+        width: 98%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #poster {
+        width: 300px;
+        margin-bottom: 1.5rem;
+    }
+}
