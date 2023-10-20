@@ -1,4 +1,12 @@
-# HTML-SASS
-Project : Reproduire la page d'accueil d'un site existant
+# JS AJAX API
+Projet : utiliser AJAX pour récupérer les informations d'une API 
 
-Contexte : Reproduire la page d'accueil de HERoine inc (https://www.heroinesinc.org/) avec seulement HTML et SASS sans inspecter la page. Les couleurs ont été copié avec ColorZilla et les photos et pictogrammes ont été enregistrés directement via le site internet.
+Contexte : Création d'un site internet permettant de rechercher un film parmis ceux qui existent dans l'API OMBd avec AJAX - JS HTML CSS.
+Le site est responsive avec media query.
+
+Développement :
+Navbar avec le bouton search provenant de Boostrap, il permet de faire apparaître la barre de recherche pop up.
+Fetch des informations dans l'API : poster, titre, description, note imbd sur 10 qui est par la suite converti en étoile sur 5, acteurs, ...
+
+Visualisation du résultat :
+INC
