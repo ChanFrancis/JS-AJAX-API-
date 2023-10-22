@@ -1,12 +1,12 @@
 # JS AJAX API
 Projet : utiliser AJAX pour récupérer les informations d'une API 
 
-Contexte : Création d'un site internet permettant de rechercher un film parmis ceux qui existent dans l'API OMBd avec AJAX - JS HTML CSS.
+Contexte : Création d'un site internet permettant de rechercher un film parmis ceux qui existent dans l'API OMBd avec AJAX - JS HTML CSS. <br>
 Le site est responsive avec media query.
 
 Développement :
-Navbar avec le bouton search provenant de Boostrap, il permet de faire apparaître la barre de recherche pop up (vous pouvez cliquer hors du cadre pour le faire disparaitre).
-Fetch des informations dans l'API : poster, titre, description, note imbd sur 10 qui est par la suite converti en étoile sur 5, acteurs, ...
+Navbar avec le bouton search provenant de Boostrap, il permet de faire apparaître la barre de recherche pop up (vous pouvez cliquer hors du cadre pour le faire disparaitre).  <br>
+Les informations récupérées dans l'API : Affiche, titre, description, note imbd sur 10 qui est par la suite converti en étoile sur 5, acteurs, ...
 
 
 Visualisation du résultat :
